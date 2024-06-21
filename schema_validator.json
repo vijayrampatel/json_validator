@@ -18,15 +18,15 @@
             "description": "Schema for the file details",
             "type": "object",
             "properties": {
-                "fileSize": {
+                "file_size": {
                     "type": "number",
                     "description": "Size of the file in bytes"
                 },
-                "fileName": {
+                "file_name": {
                     "type": "string",
                     "description": "Name of the file"
                 },
-                "fileType": {
+                "file_type": {
                     "type": "string",
                     "description": "MIME type of the file"
                 },
@@ -38,7 +38,7 @@
             },
             "required": ["fileSize", "fileName", "fileType", "date"]
         },
-        "date": {
+        "date_of_transfer": {
             "type": "string",
             "format": "date-time",
             "description": "Date and time in UTC for the file update "
