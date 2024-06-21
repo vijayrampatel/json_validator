@@ -5,11 +5,11 @@
     "description": "Schema for validating feeding and milking data from farms",
     "type": "object",
     "properties": {
-        "farmID": {
+        "farm_id": {
             "type": "string",
             "description": "Unique identifier for the farm"
         },
-        "dataFor": {
+        "data_type": {
             "type": "string",
             "enum": ["Milk", "Feed"],
             "description": "Type of data being sent, either Milk or Feed"
