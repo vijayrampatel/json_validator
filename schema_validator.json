@@ -48,5 +48,5 @@
             "description": "Additional description or notes"
         }
     },
-    "required": ["farm_id", "data_type", "file", "date_of_transfer"]
+    "required": ["farm_id", "data_type", "file", "date_of_transfer" ]
 }
